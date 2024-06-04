@@ -18,6 +18,9 @@ Using a structural directive is the **recommended** approach. It's DRY and effic
 
 Note that the `t` function is **memoized**. It means that given the same key it will return the result directly from the cache.
 
+:::important
+If you are using standalone components, remember to import the TranslocoDirective directive.
+:::
 We can pass a `params` object as the second parameter:
 
 ```html title="home.component.html"
